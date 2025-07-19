@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50° Anniversario - Una Celebrazione Speciale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="anniversario.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">50° Anniversario</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Informazioni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Luogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galleria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#upload">Carica Foto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gift">Regalo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="display-3 mb-4 animate-fade-in">50° Anniversario</h1>
+            <p class="lead mb-5 animate-fade-in delay-1">Una celebrazione speciale per quattro persone straordinarie</p>
+            
+            <!-- Countdown -->
+            <div class="countdown animate-fade-in delay-2">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Giorni</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Ore</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Minuti</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Secondi</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Informazioni -->
+    <section id="info" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Informazioni sull'Evento</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card info-card animate-fade-in">
+                        <i class="fas fa-calendar-alt info-icon"></i>
+                        <h3>Data e Ora</h3>
+                        <p>Sabato, 13 dicembre 2025<br>Dalle 20:00 alle 2:00</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card info-card animate-fade-in delay-1">
+                        <i class="fas fa-glass-cheers info-icon"></i>
+                        <h3>Tema della Serata</h3>
+                        <p>Dress code: DiscoParty anni 70/80</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card info-card animate-fade-in delay-2">
+                        <i class="fas fa-utensils info-icon"></i>
+                        <h3>Menu</h3>
+                        <p>Buffet <br>Bevande incluse e free drink</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">Siamo lieti di invitarvi a celebrare con noi questo importante traguardo. La serata sarà un'occasione per ritrovarsi, condividere ricordi e creare nuovi momenti indimenticabili insieme.</p>
+                    <p>Vi aspettiamo per un apericena elegante dove potrete gustare un ricco buffet di specialità culinarie accompagnate da ottimi vini e cocktail. La serata sarà animata da musica e intrattenimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section id="location" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Dove e Quando</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="map-container">
+                        <!-- Inserisci qui l'iframe di Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.854587066735!2d9.191376776536614!3d45.46426413566361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6aec34636a1%3A0xab7f4e27101a2e13!2sDuomo%20di%20Milano!5e0!3m2!1sit!2sit!4v1682345678901!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-4">
+                        <h3 class="mb-4">Dettagli della Location</h3>
+                        <p><i class="fas fa-map-marker-alt me-2 text-danger"></i> Ristorante "Il Giardino Segreto"<br>Via Roma, 123 - Milano</p>
+                        <p><i class="fas fa-clock me-2 text-danger"></i> Sabato, 13 Dicembre 2025<br>Dalle 20:00 alle 2:00</p>
+                        <p><i class="fas fa-car me-2 text-danger"></i> Parcheggio disponibile in loco</p>
+                        <p><i class="fas fa-subway me-2 text-danger"></i> Fermata Metro: Duomo (Linea M1, M3)</p>
+                        <div class="mt-4">
+                            <a href="https://goo.gl/maps/YourSpecificLink" class="btn btn-primary" target="_blank"><i class="fas fa-directions me-2"></i> Indicazioni stradali</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galleria -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Galleria Ricordi</h2>
+            <p class="text-center mb-5">Alcuni momenti speciali dei nostri festeggiati</p>
+            
+            <div class="gallery-container">
+                <!-- Immagini placeholder - da sostituire con le foto reali -->
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" alt="Ricordo 1">
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80">
+                    <img src="https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80" alt="Ricordo 2">
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                    <img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Ricordo 3">
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                    <img src="https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ricordo 4">
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                    <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ricordo 5">
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1464347601390-25e2842a37bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                    <img src="https://images.unsplash.com/photo-1464347601390-25e2842a37bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ricordo 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Condividi i tuoi Ricordi</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="upload-section">
+                        <p class="text-center mb-4">Carica le tue foto della serata per condividerle con tutti gli invitati</p>
+                        
+                        <div id="login-form">
+                            <div class="mb-3">
+                                <label for="access-code" class="form-label">Codice di Accesso</label>
+                                <input type="password" class="form-control" id="access-code" placeholder="Inserisci il codice fornito">
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" id="login-btn">Accedi</button>
+                            </div>
+                        </div>
+                        
+                        <div id="upload-form" style="display: none;">
+                            <form id="photo-upload-form" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label for="photos" class="form-label">Seleziona le tue foto</label>
+                                    <input class="form-control" type="file" id="photos" name="photos[]" multiple accept="image/*">
+                                    <div class="form-text">Puoi selezionare più foto contemporaneamente. Dimensione massima: 5MB per foto.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="uploader-name" class="form-label">Il tuo nome</label>
+                                    <input type="text" class="form-control" id="uploader-name" name="uploaderName" placeholder="Inserisci il tuo nome">
+                                </div>
+                                <input type="hidden" id="form-access-code" name="accessCode">
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" id="upload-btn">Carica Foto</button>
+                                </div>
+                                <div id="upload-status" class="mt-3" style="display: none;"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- I Festeggiati e Regalo -->
+    <section id="gift" class="py-5">
+        <div class="container">
+            <h2 class="section-title">I Festeggiati</h2>
+            <p class="text-center mb-5">Celebriamo insieme questi quattro amici speciali</p>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="card-img-top person-img" alt="Persona 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Marco Rossi</h5>
+                            <p class="card-text">"La vita è un viaggio, non una destinazione"</p>
+                            <a href="https://www.paypal.me/marcorossi" class="btn btn-primary" target="_blank"><i class="fab fa-paypal me-2"></i> Regalo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="card-img-top person-img" alt="Persona 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Laura Bianchi</h5>
+                            <p class="card-text">"Ogni giorno è un nuovo inizio"</p>
+                            <a href="https://www.paypal.me/laurabianchi" class="btn btn-primary" target="_blank"><i class="fab fa-paypal me-2"></i> Regalo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&auto=format&fit=crop&w=644&q=80" class="card-img-top person-img" alt="Persona 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Paolo Verdi</h5>
+                            <p class="card-text">"La felicità è un percorso, non una meta"</p>
+                            <a href="https://www.paypal.me/paoloverdi" class="btn btn-primary" target="_blank"><i class="fab fa-paypal me-2"></i> Regalo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80" class="card-img-top person-img" alt="Persona 4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Giulia Neri</h5>
+                            <p class="card-text">"Vivi ogni momento con passione"</p>
+                            <a href="https://www.paypal.me/giulianeri" class="btn btn-primary" target="_blank"><i class="fab fa-paypal me-2"></i> Regalo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="mb-4">Un Regalo Collettivo</h3>
+                    <p class="lead">Se preferisci fare un regalo collettivo per tutti i festeggiati, puoi utilizzare il link qui sotto:</p>
+                    <a href="https://www.paypal.me/50anniversario" class="btn btn-lg btn-primary mt-3" target="_blank"><i class="fab fa-paypal me-2"></i> Regalo Collettivo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>© 2023 - 50° Anniversario</p>
+            <p>Per informazioni: <a href="mailto:info@50anniversario.it" class="text-white">info@50anniversario.it</a></p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" id="modal-image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Animazioni al caricamento della pagina
+        document.addEventListener('DOMContentLoaded', function() {
+            // Attiva le animazioni degli elementi con classe animate-fade-in
+            const animatedElements = document.querySelectorAll('.animate-fade-in');
+            animatedElements.forEach(element => {
+                element.style.opacity = '0';
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                }, 100);
+            });
+            
+            // Animazione al scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            // Osserva le sezioni principali
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+        });
+        
+        // Countdown Timer
+        function updateCountdown() {
+            const eventDate = new Date('December 13, 2025 20:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+            
+            // Calcolo tempo rimanente
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Aggiornamento elementi HTML
+            document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
+            document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+            
+            // Se la data è passata
+            if (distance < 0) {
+                clearInterval(countdownTimer);
+                document.getElementById('days').innerHTML = '00';
+                document.getElementById('hours').innerHTML = '00';
+                document.getElementById('minutes').innerHTML = '00';
+                document.getElementById('seconds').innerHTML = '00';
+            }
+        }
+        
+        // Aggiorna il countdown ogni secondo
+        updateCountdown();
+        const countdownTimer = setInterval(updateCountdown, 1000);
+        
+        // Modal per le immagini della galleria
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const imgSrc = this.getAttribute('data-img');
+                document.getElementById('modal-image').src = imgSrc;
+            });
+        });
+        
+        // Gestione login per upload foto
+        document.getElementById('login-btn').addEventListener('click', function() {
+            const accessCode = document.getElementById('access-code').value;
+            if (accessCode.trim() !== '') {
+                // Salva il codice di accesso nel form nascosto
+                document.getElementById('form-access-code').value = accessCode;
+                document.getElementById('login-form').style.display = 'none';
+                document.getElementById('upload-form').style.display = 'block';
+            } else {
+                alert('Per favore, inserisci il codice di accesso.');
+            }
+        });
+        
+        // Gestione upload foto con AJAX
+        document.getElementById('upload-btn').addEventListener('click', function() {
+            const form = document.getElementById('photo-upload-form');
+            const formData = new FormData(form);
+            const fileInput = document.getElementById('photos');
+            const uploaderName = document.getElementById('uploader-name').value;
+            const statusDiv = document.getElementById('upload-status');
+            
+            // Verifica che siano stati selezionati file e inserito il nome
+            if (fileInput.files.length > 0 && uploaderName.trim() !== '') {
+                // Mostra indicatore di caricamento
+                statusDiv.innerHTML = '<div class="alert alert-info">Caricamento in corso...</div>';
+                statusDiv.style.display = 'block';
+                
+                // Invia i dati al server
+                fetch('upload_foto.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        statusDiv.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
+                        // Resetta il form
+                        form.reset();
+                    } else {
+                        statusDiv.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
+                    }
+                })
+                .catch(error => {
+                    statusDiv.innerHTML = '<div class="alert alert-danger">Si è verificato un errore durante il caricamento. Riprova più tardi.</div>';
+                    console.error('Errore:', error);
+                });
+            } else {
+                statusDiv.innerHTML = '<div class="alert alert-warning">Per favore, seleziona almeno una foto e inserisci il tuo nome.</div>';
+                statusDiv.style.display = 'block';
+            }
+        });
+        
+        // Smooth scroll per i link di navigazione
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
